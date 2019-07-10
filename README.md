@@ -1,5 +1,20 @@
 # news
 
+使用php artisan make:controller NewsController --resorce
+
+並以相關語法製作
+Route
+
+web.php ->
+Route::resource('news', 'NewsController');
+
+Controller
+
+NewsController->
+資料查詢刪除等 用上Eloquent::find(id)、all()、delete() 語法
+回傳資料 使用上compact();
+
+
 DB 測試資料語法
 
 
